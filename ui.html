@@ -13,6 +13,57 @@
         <div id="right">
             <h1>Mark Villar</h1>
         </div>
+    
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<body>
+    <div id="profile">
+        <div id="left">
+            <img src="{{ pfp }}">
+        </div>
+        <div id="right">
+            <h1>{{ l_name }}, {{ f_name }} {{ m_name }}</h1>
+            <h2>Student</h2>
+        </div>
+    </div>
+    <div id="datas">
+            <!--l_name, f_name, m_name, search, gender, g7, g8, g9, g10, lrn, fund, ph1, ph2, ph3, addr1, addr2, bday, elem, schid, dose1, dose2, booster, fb, ig, x, tik, yt, online, apple, anime, korean, hoyo, artist, lang, note, deplrn, depsch, depid, mail, bday_c-->
+            <div class="data">
+                <img class="icon" src="birthday.png">
+                <span class="text">{{ bday }} ({{ bday_c }})</span>
+            </div>
+            <div class="data">
+                <img class="icon" src="facebook.png">
+                <span class="text">{{ facebook }}</span>
+            </div>
+            <div class="data">
+                <img class="icon" src="instagram.png">
+                <span class="text">{{ instagram }}</span>
+            </div>
+            <div class="data">
+                <img class="icon" src="x.png">
+                <span class="text">{{ x }}</span>
+            </div>
+            <div class="data">
+                <img class="icon" src="tiktok.png">
+                <span class="text">{{ tiktok }}</span>
+            </div>
+            <div class="data">
+                <img class="icon" src="youtube.png">
+                <span class="text">{{ youtube }}</span>
+            </div>
+            <div class="data">
+                <img class="icon" src="threads.png">
+                <span class="text">{{ threads }}</span>
+            </div>
+    </div>
+    <div id="gradeLevel">
+        
     </div>
     <style>
         body {
