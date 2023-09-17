@@ -47,7 +47,24 @@
             </div>
     </div>
     <div id="gradeLevel">
-        
+        <p><b>7th Grade</b>: {{ g7 }}</p>
+        <p><b>8th Grade</b>: {{ g8 }}</p>
+        <p><b>9th Grade</b>: {{ g9 }}</p>
+        <p><b>10th Grade</b>: {{ g10 }}</p>
+    </div>
+    <div id="schoolInfo">
+        <p><b>LRN</b>: {{ lrn }}</p>
+        <p><b>LRN (from DepEd)</b>: {{ deplrn }}</p>
+        <hr>
+        <p><b>School Name</b>: {{ elem }}</p>
+        <hr>
+        <p><b>School ID</b>: {{ schid }}</p>
+        <p><b>School ID (from DepEd)</b>: {{ depid }}</p>
+        <hr>
+        <p><b>Funding</b>: {{ fund }}</p>
+        <p><b>Funding (from DepEd)</b>: {{ depsch }}</p>
+        <hr>
+        <p><b>School Mail (from DepEd)</b>: {{ mail }}</p>
     </div>
     <style>
         body {
@@ -77,6 +94,16 @@
         .icon {
             width: 16px;
             height: auto;
+        }
+        #gradeLevel, #schoolInfo {
+            padding: 10px 0;
+        }
+        #gradeLevel p, #schoolInfo p {
+            margin: 0;
+        }
+        #schoolInfo hr {
+            margin: 0;
+            padding: 0;
         }
     </style>
 </body>
